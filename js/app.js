@@ -19,9 +19,16 @@ function treeCtrl($scope) {
 
 	function makeItem() {
 		var newItemTxt = $('#newItem').val();
-		return {
-			text: newItemTxt
-		};
+		if (newItemTxt == '') {
+			return {
+				text: 'New treeItem'
+			};
+		} else {
+			return {
+				text: newItemTxt
+			};
+		}
+		
 	};
 
 	$scope.addAfter = function(item) {
