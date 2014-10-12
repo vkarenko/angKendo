@@ -1,0 +1,12 @@
+{
+	"data": [{
+		"text": "TreeItem 1",
+		"items": [{
+			"text": "TreeSubItem 1.1"
+		}],
+	}, {
+		"text": "TreeItem 2",
+	}, {
+		"text": "TreeItem 3",
+	}]
+}
